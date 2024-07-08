@@ -7,7 +7,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     env:
-      WORKING_DIRECTORY: templates
+      WORKING_DIRECTORY: .
     environment: prod
     steps:
       - name: Checkout repository
